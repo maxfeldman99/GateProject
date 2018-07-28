@@ -9,8 +9,8 @@ public class AndGate extends BinaryGate {
 
 	@Override
 	public boolean getOutput() {
-		// TODO Auto-generated method stub
-		return false;
+		
+		return getInputA() && getInputB();
 	}
 
 

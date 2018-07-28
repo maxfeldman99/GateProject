@@ -22,7 +22,9 @@ public abstract class BinaryGate implements IGate {
 		
 	}
 
-	public boolean isInputA() {
+
+
+	public boolean getInputA() {
 		return inputA;
 	}
 
@@ -30,7 +32,7 @@ public abstract class BinaryGate implements IGate {
 		this.inputA = inputA;
 	}
 
-	public boolean isInputB() {
+	public boolean getInputB() {
 		return inputB;
 	}
 

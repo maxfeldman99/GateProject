@@ -8,7 +8,7 @@ public class NotGate extends UnaryGate {
 	@Override
 	public boolean getOutput() {
 		
-		return false;
+		return !getInput();
 	}
 
 }

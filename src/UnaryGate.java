@@ -25,7 +25,7 @@ public abstract class UnaryGate implements IGate {
 	public abstract boolean getOutput();
 
 
-	public boolean isInput() {
+	public boolean getInput() {
 		return input;
 	}
 
